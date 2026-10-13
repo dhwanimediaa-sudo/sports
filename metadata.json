@@ -1,0 +1,8 @@
+{
+  "name": "SportsPulse - Tournament & Live Broadcast Engine",
+  "description": "Production-ready sports tournament management, live scoring, public tournament spectator portal, live TV viewer, professional player auction system, and broadcast graphics platform.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

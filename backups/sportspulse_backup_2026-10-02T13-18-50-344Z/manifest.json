@@ -1,0 +1,16 @@
+{
+  "backupId": "sportspulse_backup_2026-10-02T13-18-50-344Z",
+  "timestamp": "2026-10-02T13:18:50.367Z",
+  "version": "1.0.0",
+  "dbSizeBytes": 2389575,
+  "entityCounts": {
+    "users": 56,
+    "tournaments": 98,
+    "teams": 172,
+    "players": 200,
+    "matches": 466,
+    "scoringEvents": 313,
+    "broadcastConfigs": 118
+  },
+  "uploadedFilesCount": 12
+}

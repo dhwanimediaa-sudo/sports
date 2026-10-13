@@ -1,0 +1,23 @@
+[Unit]
+Description=SportsPulse Live Scoring & Broadcast Engine
+Documentation=https://github.com/dhwanimediaa/sportspulse
+After=network.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/sportspulse
+EnvironmentFile=/var/www/sportspulse/.env
+ExecStart=/usr/bin/node /var/www/sportspulse/dist/server.cjs
+Restart=always
+RestartSec=5
+KillSignal=SIGTERM
+TimeoutStopSec=10
+LimitNOFILE=65535
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=sportspulse
+
+[Install]
+WantedBy=multi-user.target
